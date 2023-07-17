@@ -7,9 +7,32 @@ img {
   height: 100px;
 }
 
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+}
+
+.content{
+  display: flex;
+  margin-top: 32px;
+  justify-content: center;
+  gap: 52px;
+}
+
+.fruit{
+  display: flex;
+  width: 200px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 /* do not edit this footer */
@@ -24,3 +47,4 @@ img {
   justify-content: center;
   background: #eee;
 }
+
